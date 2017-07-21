@@ -1,5 +1,6 @@
-# BOTW Style Screen Space Rain Impacts for Deferred
+# BOTW Style Screen Space Rain Impacts for Deferred Rendering
 ![](http://i.imgur.com/OUWhM19.gif)
+
 This is a currently rough (still WIP) -- study of Breath of the Wild's rain impact effect for the ridges of objects. 
 
 # The Basic Idea:
