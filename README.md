@@ -1,4 +1,4 @@
-# Breath of the Wild style screen space rain for deferred rendering
+# Breath of the Wild Style Screen Space Rain Impacts for Deffered
 This is a currently rough (still WIP) -- study of Breath of the Wild's rain impact effect for the ridges of objects. 
 
 # The basic idea:
@@ -9,6 +9,7 @@ Make flat faces hit by the rain more varied
 Add more soft volume to droplets
 Make the pattering deal with occlusion of the rain
 Add some kind of fog to wrap around ridges to compliment the effect.
+Rewrite without the normal texture to make it compatible with Forward rendering.
 
 Please feel free to branch and make pull requests as you see fit! 
 
