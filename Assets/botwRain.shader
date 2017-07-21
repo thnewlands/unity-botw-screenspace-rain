@@ -2,7 +2,7 @@
 {
 	Properties
 	{
-		_MainTex("Texture", 2D) = "white" {}
+		_MainTex("Camera Texture (leave none)", 2D) = "white" {}
 		_NoiseTex("Noise Texture", 2D) = "white" {}
 		_RainDepth("Rain Depth", float) = 1
 		_RainDensity("Rain Density", float) = .5
