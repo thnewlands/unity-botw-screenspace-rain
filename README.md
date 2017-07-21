@@ -1,10 +1,11 @@
-# Breath of the Wild Style Screen Space Rain Impacts for Deffered
+# Breath of the Wild Style Screen Space Rain Impacts for Deferred Rendering
+![](http://i.imgur.com/OUWhM19.gif)
 This is a currently rough (still WIP) -- study of Breath of the Wild's rain impact effect for the ridges of objects. 
 
-# The basic idea:
-sample a depth and a depth below it to determine whether something is an edge or curved. Then we should check if normals of the objects we checked (in world space) are facing upwards then they're probably getting hit by rain. If something satisfies both of those conditions then we should throw some nice rain on top of it. So, we sample a really quickly moving noise texture which is cutoff in such a way that it looks like the pattering of rain. 
+# The Basic Idea:
+Sample a depth and a depth below it to determine whether something is an edge or curved. Then we should check if normals of the objects we checked (in world space) are facing upwards then they're probably getting hit by rain. If something satisfies both of those conditions then we should throw some nice rain on top of it. So, we sample a really quickly moving noise texture which is cutoff in such a way that it looks like the pattering of rain. 
 
-# Improvements to be made:
+# Improvements to be Made:
 Make flat faces hit by the rain more varied 
 Add more soft volume to droplets
 Make the pattering deal with occlusion of the rain
