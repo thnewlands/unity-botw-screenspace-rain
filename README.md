@@ -15,4 +15,4 @@ Rewrite without the normal texture to make it compatible with Forward rendering.
 
 Please feel free to branch and make pull requests as you see fit! 
 
-The flycam included in the demo scene has its own credits from the Unity wiki page.
+*The flycam included in the demo scene has its own credits from the Unity wiki page.
